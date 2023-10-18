@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
+    <link href="css/main.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/579c83870a.js" crossorigin="anonymous"></script>
+    <title>Operation Fishy Porpoise</title>
+  </head>
+  <body>
+    <script>
+      var revealId = 'fadeTxt';
+      var revealId1= 'fadeTxt1'
+      var revealSpeed = 2;
+      revealTimer(revealId, revealSpeed);
+      revealTimer(revealId1, revealSpeed);
+    </script>
+    <header>
+      <a href="index.html"><h1 class="header-txt">Operation Fishy Porpoise</h1></a>
+    </header>
+    <main class="big-main">  
+      <div id="fadeTxt" class="center-txt_wrapper fade-txt">
+        <span class="txt">The second coded message was left behind by a Russian operative who was having coffee at the Tatte on Connecticut Ave.</span>
+        <br>
+        <br>
+        <span class="txt">The agent was reading <a class="article-link" target="_blank" href="https://www.washingtonpost.com/politics/after-17-years-pentagon-renovation-is-complete/2011/06/03/AGBpp3eH_story.html">this article</a> before she dropped the message.</span> 
+        <br>
+        <br>
+        <span class="txt">We suspect the words in the article may have something to do with the coded message.</span> 
+        <br>
+        <br>
+        <span id='typedText' class="cipher-txt"></span>
+        <script>
+          var aText = new Array("542 ... 813 ... 1 ... 29 ... 145 ... 8 ... 885 ... 107,");
+          typewriter();
+        </script>
+      </div>
+      <div id="fadeTxt1" class="center-txt_wrapper fade-txt">
+        <div class="bottom-nav">
+          <a href="code1.html" class="link-button"><i class="fa-solid fa-chevron-left"></i>Back</a>
+          <a href="code3.html" class="link-button">Next<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

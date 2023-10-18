@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
+    <link href="css/main.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/script.js"></script>
+     <script src="https://kit.fontawesome.com/579c83870a.js" crossorigin="anonymous"></script>
+    <title>Operation Fishy Porpoise</title>
+  </head>
+  <body>
+    <script>
+      var revealId = 'fadeButton';
+      var revealSpeed = 13000;
+      var revealId1 = 'fadeTxt'
+      var revealSpeed1 = 14000;
+      revealTimer(revealId, revealSpeed);
+      revealTimer(revealId1, revealSpeed1);
+    </script>
+    <header>
+      <a href="index.html"><h1 class="header-txt">Operation Fishy Porpoise</h1></a>
+    </header>
+    <main class="small-main">  
+      <div class="center-txt_wrapper small-txt_wrapper">
+        <span id='typedText' class="txt"></span>
+        <script>
+          var aText = new Array("Did you break the codes? Congrats! You've served your country well!", "Need some help? We have an agent standing by :)");
+          typewriter();
+        </script>
+        <a href="code4.html" id="fadeButton" class="link-button"><i class="fa-solid fa-chevron-left"></i>Go back</a>
+        <span id="fadeTxt" class="txt"> P.S. Happy Birthday!</span>
+      </div>
+    </main>
+  </body>
+</html>

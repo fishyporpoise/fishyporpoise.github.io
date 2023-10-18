@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
+    <link href="css/main.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/579c83870a.js" crossorigin="anonymous"></script>
+    <title>Operation Fishy Porpoise</title>
+  </head>
+  <body>
+    <script>
+      var revealId = 'fadeTxt';
+      var revealId1= 'fadeTxt1'
+      var revealSpeed = 2;
+      revealTimer(revealId, revealSpeed);
+      revealTimer(revealId1, revealSpeed);
+    </script>
+    <header>
+      <a href="index.html"><h1 class="header-txt">Operation Fishy Porpoise</h1></a>
+    </header>
+    <main class="big-main">  
+      <div id="fadeTxt" class="center-txt_wrapper fade-txt">
+        <span class="txt">The first coded message was found in a dossier belonging to the Russian ambassador.</span>
+        <br>
+        <br>
+        <span class="txt">Our agents found the message alongside a note which read "First is last and last is first." </span>
+        <br>
+        <br>
+        <span class="txt">We believe this phrase may indicate which cipher the Russians used to encode the message.</span> 
+        <br>
+        <br>
+        <span id='typedText' class="cipher-txt"></span>
+        <script>
+          var aText = new Array("Hkvxrzoob gizrmvw wloksrmh hdzn fk gsv Klglnzx,");
+          typewriter();
+        </script>
+      </div>
+      <div id="fadeTxt1" class="center-txt_wrapper fade-txt">
+        <div class="bottom-nav">
+          <a href="intro.html" class="link-button"><i class="fa-solid fa-chevron-left"></i>Back</a>
+          <a href="code2.html" class="link-button">Next<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

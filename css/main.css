@@ -1,0 +1,150 @@
+/**
+* Table of Contents:
+*
+* 1.0 - Variables
+* 2.0 - Basic Elements
+* 3.0 - Header
+* 4.0 - Main
+* 5.0 - Media Queries
+* -----------------------------------------------------------------------------
+*/
+
+
+/**
+* 1.0 Variables
+* -----------------------------------------------------------------------------
+*/
+
+:root {
+  --MAX-CONTENT-WIDTH: 70rem;
+  --WHITE: #FFFFFF;
+  --OFF-BLACK: #212427;
+  --RED: #ff0000;
+  --LIGHT-BLUE: #C5C6D0;
+  --NARROW-BORDER: 0.01px;
+ }
+
+/**
+* 2.0 Basic Elements
+* -----------------------------------------------------------------------------
+*/
+
+a {
+  text-decoration: none;
+  color: var(--OFF-BLACK);
+}
+
+a:hover,
+#fadeButton:hover {
+  color: var(--LIGHT-BLUE);
+}
+
+
+body {
+  overscroll-behavior: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  background-color: var(--WHITE);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.txt {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: var(--OFF-BLACK);
+  width: 100%;
+}
+
+.cipher-txt {
+  font-size: 1.5rem;
+  font-family: "Special Elite", sans-serif;
+  color: var(--RED);
+  width: 100%;
+}
+
+.link-button {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.article-link {
+  color: var(--RED);
+}
+
+
+/**
+* 2.0 Header
+* -----------------------------------------------------------------------------
+*/
+
+header {
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.header-txt {
+  font-family: "Special Elite", sans-serif;
+}
+
+
+/**
+* 3.0 Main
+* -----------------------------------------------------------------------------
+*/
+main {
+  width: 50rem;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+.small-main {
+  padding-top: 10%;
+}
+
+.big-main {
+  padding-top: 5%;
+}
+
+.center-txt_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fade-txt {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+#fadeButton {
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: var(--RED);
+}
+
+#fadeTxt {
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: var(--OFF-BLACK);
+}
+
+
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: auto;
+}
