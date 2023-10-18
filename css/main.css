@@ -116,12 +116,20 @@ main {
   padding-top: 5%;
 }
 
-.center-txt_wrapper {
-  width: 75%;
+.center-txt_wrapper,
+.center-txt-wrapper-small {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.center-txt_wrapper {
+  width: 75%;
+}
+
+.center-txt_wrapper-small {
+  width: 60%;
 }
 
 .fade-txt {
