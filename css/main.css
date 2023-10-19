@@ -116,20 +116,12 @@ main {
   padding-top: 5%;
 }
 
-.center-txt_wrapper,
-.center-txt_wrapper-small {
+.center-txt_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.center-txt_wrapper {
   width: 75%;
-}
-
-.center-txt_wrapper-small {
-  width: 60%;
 }
 
 .fade-txt {
@@ -148,7 +140,6 @@ main {
   transition: opacity 0.5s;
   color: var(--OFF-BLACK);
 }
-
 
 .bottom-nav {
   width: 100%;
